@@ -44,6 +44,9 @@ public class BankAccount {
         return new BankAccountBuilder(accountNumber);
     }
 
+    /**
+     * Builder pattern
+     */
     public static class BankAccountBuilder {
         private String number;
         private String accountCode;
